@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аниме Поисковик</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Аниме Поисковик</h1>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Найти аниме...">
+      <button id="search-btn">Поиск</button>
+      <button id="top-btn">Топ аниме</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="hidden">Загрузка...</div>
+    <div id="anime-grid" class="anime-grid"></div>
+    <div id="anime-detail" class="anime-detail hidden"></div>
+    <button id="back-btn" class="hidden">Назад к списку</button>
+  </main>
+</div>
+
+<script src="src/script.js" type="module"></script>
+</body>
+</html>
